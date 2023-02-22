@@ -13,7 +13,7 @@ INSERT INTO animals VALUES (DEFAULT, 'Blossom','10-13-1998', 3, TRUE, 17.0 );
 INSERT INTO animals VALUES (DEFAULT, 'Ditto','05-14-2022', 4, TRUE, 22.0 );
 
 INSERT INTO owners VALUES (DEFAULT, 'Sam Smith', 34);
-INSERT INTO owners VALUES (DEFAULT, 'Jeniffer Orwell', 19);
+INSERT INTO owners VALUES (DEFAULT, 'Jennifer Orwell', 19);
 INSERT INTO owners VALUES (DEFAULT, 'Bob', 45);
 INSERT INTO owners VALUES (DEFAULT, 'Melody Pond', 77);
 INSERT INTO owners VALUES (DEFAULT, 'Dean Winchester', 14);
