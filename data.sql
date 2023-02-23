@@ -125,7 +125,7 @@ INSERT INTO visits VALUES (
 INSERT INTO visits VALUES (
   (SELECT id FROM animals WHERE animals.name = 'Plantmon'),
   (SELECT id FROM vets WHERE vets.name = 'Maisy Smith'),
-  'Apr-07-2020'
+  'Apr-07-2021'
 );
 
 INSERT INTO visits VALUES (
