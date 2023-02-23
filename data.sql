@@ -58,7 +58,7 @@ INSERT INTO specializations VALUES (
 
 INSERT INTO specializations VALUES (
   (SELECT id FROM vets WHERE vets.name = 'Jack Harkness'), 
-  (SELECT id FROM species WHERE species.name = 'Pokemon')
+  (SELECT id FROM species WHERE species.name = 'Digimon')
 );
 
 -- visits data ======================================================
