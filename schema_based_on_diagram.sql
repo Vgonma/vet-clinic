@@ -18,3 +18,9 @@ CREATE TABLE IF NOT EXISTS invoices (
   payed_at TIMESTAMP,
   medical_history__id INT REFERENCES medical_histories(id)
 );
+
+CREATE TABLE IF NOT EXISTS treatments (
+  id SERIAL PRIMARY KEY,
+  type TEXT,
+  name TEXT
+);
