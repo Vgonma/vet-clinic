@@ -29,3 +29,12 @@ CREATE TABLE IF NOT EXISTS histories_treatments (
   history_id INT REFERENCES medical_histories(id),
   treatment_id INT REFERENCES treatments(id)
 );
+
+CREATE TABLE IF NOT EXISTS invoice_items (
+  id SERIAL PRIMARY KEY,
+  unit_price DECIMAL,
+  quantity INT,
+  total_price DECIMAL,
+  invoice_id INT,
+  treatment_id INT
+);
