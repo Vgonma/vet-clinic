@@ -24,3 +24,8 @@ CREATE TABLE IF NOT EXISTS treatments (
   type TEXT,
   name TEXT
 );
+
+CREATE TABLE IF NOT EXISTS histories_treatments (
+  history_id INT REFERENCES medical_histories(id),
+  treatment_id INT REFERENCES treatments(id)
+);
