@@ -50,3 +50,6 @@ CREATE TABLE IF NOT EXISTS invoice_items (
   invoice_id INT,
   treatment_id INT
 );
+
+CREATE INDEX idx_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX idx_treatment_id ON invoice_items(treatment_id);
